@@ -1,0 +1,96 @@
+// code for super easy excercise
+// Takes num1 and num2 as parameter
+//function findmin( num1, num2 ) {
+
+// if num1 is smaller it returns num1
+//if ( num1 < num2 )
+//    return num1;
+  
+// if num2 is smaller it returns num2
+//  return num2;
+//}
+//console.log(findmin(10,100))
+
+
+
+
+
+// code for easy excercise
+//var students = [
+//   {
+//        lastName: 'Barkley',
+//        firstName: 'Charles',
+//        age: 55
+//    },
+//    {
+//        lastName: 'Foster',
+//        firstName: 'Jane',
+//        age: 25
+//    },
+//    {
+//        lastName: 'James',
+//        firstName: 'Lebron',
+//        age: 38
+//    }
+//];
+
+//console.log('Hello, my name is ' + students[1].firstName + ' ' + students[1].lastName +
+//    ' and I am ' + students[1].age + ' years old');
+
+
+
+
+// code for medium excercise 
+// An array of months
+//var months = ["January", "February", "March", "April", 
+             // "May", "June", "July", "August", "September", 
+           //  "October", "November", "December"];
+
+// A function to take input from user
+//function takeInput() {
+	// Prompt the user to enter a number between 1 to 12
+	//var inputNumber = prompt("Enter a number between 1-12: ");
+
+	// if number is less than 1 or greater than 12 then alert the user that its an invalid number
+	//if (inputNumber < 1 || inputNumber > 12) {
+		//alert("Its an invalid number!!");
+	//} 
+	// else in the console log the number and its corresponding month
+	//else {
+		//console.log(months[inputNumber - 1]);
+	//}
+//}
+
+// Ask the user to input a number
+//takeInput();
+
+
+
+
+
+// code for hard excercise
+//define the mass and height for tom
+var massTom = 8;
+var heightTom = 9;
+
+//define the mass and height for Jerry
+var massJerry = 45;
+var heightJerry = 10;
+
+//calculating bmi for tom and jerry
+var bmiTom = massTom / (heightTom * heightTom);
+var bmiJerry = massJerry / (heightJerry * heightJerry);
+console.log(bmiTom);
+console.log(bmiJerry);
+
+//intiialze boolean with true
+let tomBmiHigher = true;
+//if tom bmi is less
+if (bmiTom < bmiJerry) {
+	//set boolean to false
+	tomBmiHigher = false;
+}
+
+console.log("Is Tom’s BMI higher than Jerry’s? " + tomBmiHigher);
+
+
